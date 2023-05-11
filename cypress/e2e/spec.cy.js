@@ -3,7 +3,7 @@
 describe("Criando cenário de teste para o site Spotify", () => {
    it("Caso de teste: Pesquisando artista especifico com sucesso.", () => {
       //visitando a pagina inicial de test
-      cy.viewport(1000, 1300);
+      cy.viewport(1366, 768);
       cy.visit("https://open.spotify.com");
       cy.get(
          ":nth-child(2) > .link-subtle > .Type__TypeElement-sc-goli3j-0"
@@ -15,7 +15,7 @@ describe("Criando cenário de teste para o site Spotify", () => {
    });
    it("Caso de teste: Mudando idioma do site com sucesso.", () => {
       //visitando a pagina inicial de test
-      cy.viewport(1000, 1300);
+      cy.viewport(1366, 768);
       cy.visit("https://open.spotify.com");
       cy.get('[data-testid="language-selection-button"]').click();
       cy.get('[data-testid="language-option-de"]').click();
@@ -25,7 +25,7 @@ describe("Criando cenário de teste para o site Spotify", () => {
    });
    it("Caso de teste: Pesquisando música especifica com sucesso.", () => {
       //visitando a pagina inicial de test
-      cy.viewport(1000, 1300);
+      cy.viewport(1366, 768);
       cy.visit("https://open.spotify.com");
       cy.get(
          ":nth-child(2) > .link-subtle > .Type__TypeElement-sc-goli3j-0"
@@ -43,7 +43,7 @@ describe("Criando cenário de teste para o site Spotify", () => {
    });
    it("Caso de teste: Criando um usuário no spotify com erro de e-mail.", () => {
       //visitando a pagina inicial de test
-      cy.viewport(1000, 1300);
+      cy.viewport(1366, 768);
       cy.visit("https://open.spotify.com");
       cy.get(
          '[data-testid="signup-bar"] > .Button-sc-qlcn5g-0 > .ButtonInner-sc-14ud5tc-0'
@@ -64,7 +64,7 @@ describe("Criando cenário de teste para o site Spotify", () => {
          '[data-testid="dob-error-messages-parent"] > .Help-sc-1xezfve-0 > .Text-sc-g5kv67-0'
       ).should("contain.text", "Enter a valid day of the month.");
    });
-   it("Caso de teste: Criando um usuário no spotify com erro do ano de nascimento.", () => {
+   it("Caso de teste: Criando um usuário no spotify com erro do mes de nascimento.", () => {
       //visitando a pagina inicial de test
       let info = criarUsuario();
       cy.get("#day").type("22");
@@ -96,7 +96,7 @@ function criarUsuario() {
 
    let userinfo = [username, password];
 
-   cy.viewport(1000, 1300);
+   cy.viewport(1366, 768);
    cy.visit("https://open.spotify.com");
    cy.get(
       '[data-testid="signup-bar"] > .Button-sc-qlcn5g-0 > .ButtonInner-sc-14ud5tc-0'

@@ -128,3 +128,29 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+cypress/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Criando um usuário no spotify com erro de dia do nascimento (failed).png
+cypress/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Criando um usuário no spotify com erro de e-mail (failed).png
+cypress/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Criando um usuário no spotify com erro do ano de nascimento (failed).png
+cypress/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Criando um usuário no spotify com erro do mes de nascimento (failed).png
+cypress/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Mudando idioma do site com sucesso (failed).png
+cypress/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Pesquisando artista especifico com sucesso (failed).png
+cypress/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Pesquisando música especifica com sucesso (failed).png
+cypress/videos/spec.cy.js.mp4
+cypress/reports/html/index.html
+cypress/reports/html/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Criando um usuário no spotify com erro de dia do nascimento (failed).png
+cypress/reports/html/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Criando um usuário no spotify com erro de e-mail (failed).png
+cypress/reports/html/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Criando um usuário no spotify com erro do ano de nascimento (failed).png
+cypress/reports/html/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Criando um usuário no spotify com erro do mes de nascimento (failed).png
+cypress/reports/html/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Mudando idioma do site com sucesso (failed).png
+cypress/reports/html/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Pesquisando artista especifico com sucesso (failed).png
+cypress/reports/html/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Pesquisando música especifica com sucesso (failed).png
+cypress/reports/html/videos/spec.cy.js.mp4
+cypress/reports/html/index.html
+cypress/reports/html/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Criando um usuário no spotify com erro de dia do nascimento (failed).png
+cypress/reports/html/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Criando um usuário no spotify com erro de e-mail (failed).png
+cypress/reports/html/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Criando um usuário no spotify com erro do ano de nascimento (failed).png
+cypress/reports/html/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Mudando idioma do site com sucesso (failed).png
+cypress/reports/html/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Pesquisando artista especifico com sucesso (failed).png
+cypress/reports/html/screenshots/spec.cy.js/Criando cenário de teste para o site Spotify -- Caso de teste Pesquisando música especifica com sucesso (failed).png
+cypress/reports/html/videos/spec.cy.js.mp4
+cypress/videos/spec.cy.js.mp4
